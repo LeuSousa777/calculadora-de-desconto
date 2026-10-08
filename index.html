@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Calculadora de Desconto</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <h1>Calculadora de Desconto</h1>
+
+      <p class="description">
+        Produtos acima de R$ 30,00 recebem 10% de desconto.
+      </p>
+
+      <label for="product-price">Preço do produto</label>
+
+      <input
+        id="product-price"
+        type="number"
+        placeholder="Digite o preço"
+        min="0"
+        step="0.01"
+      />
+
+      <button onclick="calculateDiscount()">Calcular desconto</button>
+
+      <section class="result">
+        <p>
+          Preço original:
+          <strong id="original-price">R$ 0,00</strong>
+        </p>
+
+        <p>
+          Desconto:
+          <strong id="discount-value">R$ 0,00</strong>
+        </p>
+
+        <p>
+          Preço final:
+          <strong id="final-price">R$ 0,00</strong>
+        </p>
+
+        <p id="message"></p>
+      </section>
+    </main>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
