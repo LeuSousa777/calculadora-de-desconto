@@ -5,6 +5,8 @@ Este projeto é uma calculadora de desconto desenvolvida durante meus estudos de
 A aplicação recebe o preço de um produto e aplica automaticamente 10% de desconto quando o valor informado é superior a R$ 30,00.
 
 ## 📸 Demonstração do projeto
+<img width="717" height="890" alt="image" src="https://github.com/user-attachments/assets/f4ab5220-4b8b-4829-ab5a-6ed93e7881ba" />
+
 
 ## 🌐 Projeto publicado
 
